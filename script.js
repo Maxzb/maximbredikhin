@@ -14,7 +14,9 @@ $(document).ready(function(){
 			$('.slides-container-mob').slick({
   			infinite: true,
  		 	slidesToShow: 1,
- 		 	slidesToScroll: 1
+ 		 	slidesToScroll: 1,
+ 		 	arrows: false,
+ 		 	dots: true
 			});
 
 			$('.hooks').addClass('hooks_appear');
